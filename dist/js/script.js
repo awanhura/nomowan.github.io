@@ -23,7 +23,7 @@ function loaderActive() {
 } 
 
 function loaderActiveTime() {
-    setInterval(loaderActive, 3000);
+    setInterval(loaderActive, 2000);
 }
 
 window.onload = loaderActiveTime();
